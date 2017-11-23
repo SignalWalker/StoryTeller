@@ -1,12 +1,11 @@
 ﻿namespace Storyteller {
-	using System.Xml;
 	using Mint;
 
 	public class Interpreter : StoryObject {
 
 		uint povKey;
 		Entity POV {
-			get => story.pool[povKey];
+			get => CurrStory.pool[povKey];
 			set => povKey = value?.Key ?? 0;
 		}
 

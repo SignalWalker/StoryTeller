@@ -8,7 +8,4 @@
       <Name>Mint</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Components" />
-  </ItemGroup>
 </Project>

@@ -1,7 +1,7 @@
 ﻿namespace Storyteller {
 	public class StoryObject {
 
-		public Story story => Story.story;
+		public Story CurrStory => Story.story;
 
 	}
 }

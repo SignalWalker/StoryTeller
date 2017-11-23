@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mint\Mint.csproj">
+      <Project>{AF0D9ABF-33DA-4C07-B4D1-074C8D431709}</Project>
+      <Name>Mint</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Components" />
+  </ItemGroup>
+</Project>

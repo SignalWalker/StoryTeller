@@ -1,11 +1,18 @@
 ﻿namespace Storyteller {
+	using System.IO;
 	using Mint;
 
 	public class Story {
 
-		public static Story story;
+		public TextWriter output;
+		public TextReader input;
 
-		public Pool pool;
+		public Pool pool = new Pool();
+
+		public Story(TextReader input, TextWriter output) {
+			this.input = input;
+			this.output = output;
+		}
 
 	}
 }

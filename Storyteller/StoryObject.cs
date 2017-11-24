@@ -1,7 +1,10 @@
 ﻿namespace Storyteller {
+	using System;
+	using System.IO;
+
 	public class StoryObject {
 
-		public Story CurrStory => Story.story;
+		public static Story CurrStory;
 
 	}
 }

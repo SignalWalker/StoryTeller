@@ -8,4 +8,7 @@
       <Name>Mint</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utility\Encoders" />
+  </ItemGroup>
 </Project>
